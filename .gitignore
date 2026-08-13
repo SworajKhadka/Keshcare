@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.DS_Store
+.ipynb_checkpoints/
+
+# Real training data — large, don't commit. Keep it local / in Colab / in
+# whatever dataset storage you use. Only data/sample_images (a handful of
+# small demo images) is meant to be tracked in git.
+data/train/
+data/val/
+data/raw/
+
+# The smoke-test seed CSV can be regenerated any time — no need to track it.
+training/recommendation_seed_data.csv
